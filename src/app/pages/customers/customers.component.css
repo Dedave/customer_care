@@ -1,0 +1,52 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px whitesmoke; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+  }
+.menu{
+    margin-left: 250px;
+}
+.nav{
+    margin-left: 240px;
+}
+th, td{
+    padding-left: 60px;
+}
+li{
+    padding-left: 60px; 
+    margin-left: 60px;
+}
+.details:hover{
+background-color: indigo;
+color: white;
+cursor: pointer;
+}
+.tmenu{
+  width: 70%;
+    margin-left: 320px;
+    margin-right: 20px;
+}
+.smenu{
+    margin-left: 330px;
+}
+.wrapper{
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

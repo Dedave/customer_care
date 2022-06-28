@@ -1,0 +1,104 @@
+<div class=" flex justify-between border-b-2 border-indigo-100">
+    <div class="relative m-3 flex justify-center menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list  cursor-pointer  text-indigo-700" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          <h3 class="font-semibold mt-5 ml-6 text-2xl">Customer's Details</h3>
+    </div>
+        <div class="relative m-3  p-2 shadow-md">
+            <h3 class="font-semibold">Olawoyin David</h3> <hr>
+            <h4 class="text-center">ID: 001102</h4>
+        </div>
+    </div> 
+<div class="smenu flex justify-between">
+    <div class=" mt-5 rounded-lg">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" routerLink="/customers">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      </svg>
+      </div> 
+
+       <div class="mt-5 tmenu">
+        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+              <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                    <h3 class=" bg-gray-50 p-3 text-gray-900 font-bold text-lg">Ajanlekoko Damian</h3>
+                 
+                    <div class="grid grid-cols-3 m-6 p-6">
+                    <div>
+                      <img class="h-12 w-12 rounded-full" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="">
+                     </div>
+                    <div class="divide-y divide-gray-200 font-medium"> 
+                      <label for="">Email:</label>
+                      <label for="">Date of Birth:</label>
+                      <label for="">Phone no:</label>
+                      <label for="">Date of Registration:</label>
+                      <label for="">Address:</label>
+                      <label for="">City: </label>
+                      <label for="">Country:</label>
+                      <label for="">Total Activity Log:</label>
+                    </div>
+                    <div class="divide-y divide-gray-200">
+                       <label for="">ajadam@gmail.com</label>
+                      <label for="">20/06/1979</label>
+                      <label for="">09023123445</label>
+                      <label for="">12/01/2022</label>
+                      <label for="">25, Nicon Town, Lekki</label>
+                      <label for="">Lagos</label>
+                      <label for="">Nigeria</label>
+                      <label for="">35</label>
+                    </div>
+                  </div>
+                    <button class="viewBtn bg-gray-500 hover:bg-gray-700 text-white text-sm font-medium text-md py-2 px-2 rounded-lg mb-3" routerLink="/activities-by-id">
+                View activities
+              </button>
+                  </div> 
+                  </div>
+              </div>
+            </div>
+
+     
+</div>
+       
+
+<!-- <button class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button" data-modal-toggle="authentication-modal">
+  Toggle modal
+  </button>
+  
+  <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
+  <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+  
+  <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+  <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="authentication-modal">
+  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+  </button>
+  <div class="py-6 px-6 lg:px-8">
+  <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
+  <form class="space-y-6" action="#">
+  <div>
+  <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+  <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required="">
+  </div>
+  <div>
+  <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your password</label>
+  <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required="">
+  </div>
+  <div class="flex justify-between">
+  <div class="flex items-start">
+  <div class="flex items-center h-5">
+  <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required="">
+  </div>
+  <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+  </div>
+  <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+  </div>
+  <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
+  <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+  Not registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  </div> -->
+  
+            

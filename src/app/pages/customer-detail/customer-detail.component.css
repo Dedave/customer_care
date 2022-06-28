@@ -1,0 +1,23 @@
+.menu{
+    margin-left: 250px;
+}
+.tmenu{
+    margin-right: 170px;
+    width: 800px;
+} 
+label{
+    display: block;
+}
+.details{
+    margin-left: 76px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.viewBtn{
+    margin-left: 33px;
+}
+.smenu{
+    margin-left: 330px;
+}

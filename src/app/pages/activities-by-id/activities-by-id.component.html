@@ -1,0 +1,204 @@
+
+<div class=" flex justify-between border-b-2 border-indigo-100">
+  <div class="relative m-3 flex justify-center menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list  cursor-pointer  text-indigo-700" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        <h3 class="font-semibold mt-5 ml-6 text-2xl">Activity Log</h3>
+  
+        <button class="btnTicket bg-gray-500 hover:bg-gray-700 text-white text-sm font-medium text-md rounded-lg mb-3 ml-16" id="open-btn" routerLink="/new-ticket">
+          New Ticket
+        </button>
+      </div>
+      <div class="relative m-3  p-2 shadow-md">
+          <h3 class="font-semibold">Olawoyin David</h3> <hr>
+          <h4 class="text-center">ID: 001102</h4>
+      </div>
+  </div>
+  <div class="grid grid-cols-2"> 
+  <div class="smenu mt-5 rounded-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-10 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" routerLink="/customer-detail">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+    </svg>
+    </div>
+    
+    <div class="smenu mt-3 flex items-center">
+      <input type="text" name="search" placeholder="Filter logs..."
+          class="w-2/3 py-2 border-b-2 border-gray-400 outline-none focus:border-indigo-400">
+  </div>
+</div>
+      <!-- <ul class="tmenu flex min-w-full divide-y divide-gray-200">
+          <li scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</li>
+          <li scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</li>
+           <li scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Phone Number</li>
+              <li scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date Joined</li>
+            
+        </ul> -->
+        
+<div class="tmenu mt-5 flex flex-col">
+  <div class="-my-2 sm:-mx-6 lg:-mx-8">
+    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Transaction Type</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+         
+
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-red-200  rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">MTN Data</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Jan 27, 2022 at 10:09AM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦3,000</td>
+              <td>
+                <span class="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-red-700 mr-2">Unsuccessful</span>
+                </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-green-200 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">Airtel Recharge</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Jan 13, 2022 at 1:16PM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦500</td>
+              <td>
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-700 mr-2">Successful</span>
+               </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Transaction Type</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-blue-200 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg> 
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">Loan</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Apr 1, 2022 at 12:30PM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦10,000</td>
+              <td>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2">Pending</span>
+             </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-green-200 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg> 
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">Dstv Subscription</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Feb 3, 2022 at 5:16PM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦1,500</td>
+              <td>
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-700 mr-2">Successful</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-red-200  rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">MTN Data</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Jan 27, 2022 at 10:09AM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦3,000</td>
+              <td>
+                <span class="inline-block bg-red-200 rounded-full px-3 py-1 text-sm font-semibold text-red-700 mr-2">Unsuccessful</span>
+                </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10 bg-green-200 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">Airtel Recharge</div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">Jan 13, 2022 at 1:16PM</div>
+              </td>
+              
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-semibold">-₦500</td>
+              <td>
+                <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-700 mr-2">Successful</span>
+               </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
